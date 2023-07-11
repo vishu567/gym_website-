@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.502);
+    border: 1px solid rgba(127, 255, 212, 0.61);
+    padding-bottom: 1px;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top: 3px;
+}
+
+.left img {
+    width: 60px;
+}
+
+.mid {
+    /* border: 2px solid rgb(214, 52, 16); */
+    /* background-color: black; */
+    display: block;
+    width: 40%;
+    margin: 22px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+    font: bold;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: rgba(234, 255, 0, 0.653);
+    text-decoration: underline;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    top: 22px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-color: rgba(127, 255, 212, 0.61);
+    padding: 0px 20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(127, 255, 212, 0.61);
+    color: black;
+}
+
+.container {
+    border: 2px solid rgba(127, 255, 212, 0.61);
+    margin: 100px 93px;
+    padding: 75px;
+    width: 30%;
+    border-radius: 28px;
+    background-color: rgba(0, 0, 0, 0.502);
+}
+.form-group input{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid rgba(127, 255, 212, 0.61);
+    border-radius: 10px;
+    margin: 5px auto;
+    font-size: 18px;
+    background-color: black;
+    color: rgb(248, 243, 243);
+}
+.form-group:hovor
+{
+    /* background-color: rgba(127, 255, 212, 0.61); */
+    color: white;
+}
+#form-button
+{
+    margin:3px 170px;
+}
+h2
+{
+    /* display: block; */
+    color: rgba(127, 255, 212, 0.61);
+    margin: 8px 34px;
+}
